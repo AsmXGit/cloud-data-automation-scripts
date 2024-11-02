@@ -1,0 +1,13 @@
+sudo sh disable_iptables.sh 
+sudo sh disable_ipv6.sh
+sudo sh disable_selinux.sh 
+sudo sh disable_thp.sh 
+sudo sh install_lzo.sh 
+sudo sh install_nscd.sh
+sudo sh install_ntp.sh
+sudo sh install_tools.sh
+sudo sh remove_tuned.sh
+sudo sh tune_kernel.sh
+sudo sysctl vm.swappiness=1
+#Check Prerequisites now
+sudo sh check-pre-req.sh
